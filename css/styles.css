@@ -1,0 +1,24 @@
+/* #animalForm {
+  font-size: 50px;
+}
+
+.row {
+  text-align: center;
+  align-items: center;
+} */
+
+#losAngeles {
+  display: none;
+}
+
+#newYork {
+  display: none;
+}
+
+#chicago {
+  display: none;
+}
+
+body {
+  background-image: url("../img/paper.jpg");
+}
