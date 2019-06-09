@@ -9,11 +9,11 @@
     <meta charset="utf-8">
     <title>Living Selector</title>
   </head>
-  <body class="container">
+  <body>
+    <div class="container">
     <h1>Living Selector</h1>
-    <p>1. Please select the city you think you might like the most.</p>
-
     <form id="livingForm" class="info">
+    <p>1. Please select the city you think you might like the most.</p>
       <div class="radio">
         <label>
           <input type="radio" name="livType" value="losAngeles" checked>
@@ -32,10 +32,7 @@
           You like Chicago.
         </label>
       </div>
-
       <p>2. What kind of weather are you keen on?</p>
-
-      <form id="livingForm" class="info">
         <div class="radio">
           <label>
             <input type="radio" name="weather" value="losAngeles" checked>
@@ -51,13 +48,10 @@
         <div class="radio">
           <label>
             <input type="radio" name="weather" value="chicago">
-            Purely muggy
+            Purely Muggy
           </label>
         </div>
-
         <p>3. Food?</p>
-
-        <form id="livingForm" class="info">
           <div class="radio">
             <label>
               <input type="radio" name="food" value="losAngeles" checked>
@@ -76,10 +70,7 @@
               Polish
             </label>
           </div>
-
           <p>4.Movie?</p>
-
-          <form id="livingForm" class="info">
             <div class="radio">
               <label>
                 <input type="radio" name="movie" value="losAngeles" checked>
@@ -98,10 +89,7 @@
                 Home Alone
               </label>
             </div>
-
             <p>5. Color?</p>
-
-            <form id="livingForm" class="info">
               <div class="radio">
                 <label>
                   <input type="radio" name="color" value="losAngeles" checked>
@@ -120,30 +108,26 @@
                   Yellow
                 </label>
               </div>
+            <button type="submit" name="button">Test Your Might</button>
+          </form>
 
-      <button type="submit" name="button">Test Your Might</button>
-    </form>
 
-    <main>
-      <div class="row">
         <!-- add .hidden to work with global varialble for addclass, toggle -->
           <div id="losAngeles">
             <h1>Los Angeles</h1>
             <img src="img/la.jpg" alt="a picture" width="300px" height="300px">
-            <p>You're moving to Los Angeles.</p>
+            <h5>You're moving to Los Angeles.</h5>
           </div>
           <div id="newYork">
             <h1>New York</h1>
             <img src="img/ny.jpg" alt="a picture" width="300px" height="300px">
-            <p>You're moving to New York.</p>
+            <h5>You're moving to New York.</h5>
           </div>
           <div id="chicago">
             <h1>Chicago</h1>
             <img src="img/chi.jpg" alt="a picture" width="300px" height="300px">
-            <p>You're moving to Chicago.</p>
-
+            <h5>You're moving to Chicago.</h5>
           </div>
-      </div>
-    </main>
+        </div>
   </body>
 </html>

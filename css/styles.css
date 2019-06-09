@@ -1,24 +1,49 @@
-/* #animalForm {
-  font-size: 50px;
-}
-
-.row {
-  text-align: center;
-  align-items: center;
-} */
-
 #losAngeles {
   display: none;
 }
 
 #newYork {
   display: none;
+  margin: 50px;
 }
 
 #chicago {
   display: none;
 }
 
+#livingForm {
+  float: left;
+}
+
+
 body {
   background-image: url("../img/paper.jpg");
+  background-size: cover;
 }
+
+button {
+    background-image: url("../img/button.png");
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+img {
+  border: 5px solid tan;
+  border-spacing: 15px;
+}
+
+h1 {
+  font-family: 'Cousine', monospace;
+}
+
+p {
+  margin-top: 20px;
+  margin-right: 70px;
+}
+
+/*
+.row {
+text-align: center;
+align-items: center;
+} */
