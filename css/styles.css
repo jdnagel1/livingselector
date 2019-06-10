@@ -22,10 +22,11 @@ body {
 }
 
 button {
-    background-image: url("../img/button.png");
+    background-image: url("https://i.etsystatic.com/11905144/r/il/90bd89/1231386919/il_570xN.1231386919_6vt9.jpg")
     background-repeat: no-repeat;
     margin: 10px;
     margin-bottom: 30px;
+    font-family: 'Cousine', monospace;
 }
 
 img {
