@@ -9,7 +9,7 @@
 _This website offers information on living selection prophecies. On the main page , index.html, users will find a form to gather user information. After the user submits their information, a fortune is revealed with a suggested living selection: description statements in which the user selects what fits them best. Depending on that selection. Each have another questionnaire that further narrows down a user's interest. Based on their selection. The answer is revealed with the selection best corresponding to their interests.
 
 ## Setup/Installation Requirements - Option 1
-* _Open the website by typing in the following link into your web browser: <https://jdnagel1.github.io/livingselector>._
+* _Open the website by typing in the following link into your web browser: <https://jdnagel1.github.io/testyourmight>._
 
 ## Setup/Installation Requirements - Option 2
 
